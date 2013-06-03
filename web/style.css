@@ -1,0 +1,138 @@
+body
+{margin:0; padding:0; color:#303030; }
+
+ul
+{list-style:circle; margin:15px 0 20px 0; font-size:0.9em;}
+
+li
+{margin:0 0 8px 25px;}
+
+a
+{color:#d85d5d; font-weight:bold; text-decoration:none;}
+
+a:hover
+{color:#505050; text-decoration:underline;}
+
+img
+{float:left; margin:0 15px 15px 0; padding:1px; background:#ffffff; border:1px solid #d0d0d0;}
+
+a img
+{border-color:#d85d5d;}
+
+a img:hover
+{background:#d85d5d; border-color:#d85d5d;}
+
+
+
+/**************** Content area styles ****************/
+
+#content
+{width:520px; margin: 10px;  }
+
+#content p
+{margin:0 0 20px 0; line-height:1.5em;}
+
+#content h1
+{margin:0; color:#d85d5d; font-size:2em;  text-align:center;}
+
+ 
+#streamimage {
+width:520px; height: 390px;
+}
+
+#xform {
+	text-align:left;
+	margin:0 !important;
+}
+#streamwrap {
+	height:350px
+}
+#streamwrap.rotated {
+	height:450px
+}
+p.xform-p {
+	height:5px;
+	margin-bottom:0 !important;
+}
+p.xform-p.rotated {
+	height:50px;
+	margin-bottom:20px !important;
+}
+
+/*
+	CSS3 transformations: rotate, flip, mirror
+*/
+
+img.x-rotated-0 {}
+img.x-rotated-90 {
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+img.x-rotated-180 {
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+img.x-rotated-270 {
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+}
+img.x-mirrored-rotated-0 {
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+}
+img.x-mirrored-rotated-90 {
+	-moz-transform: rotate(90deg) scaleX(-1);
+	-webkit-transform: rotate(90deg) scaleX(-1);
+}
+img.x-mirrored-rotated-180 {
+	-moz-transform: rotate(180deg) scaleX(-1);
+	-webkit-transform: rotate(180deg) scaleX(-1);
+}
+img.x-mirrored-rotated-270 {
+	-moz-transform: rotate(270deg) scaleX(-1);
+	-webkit-transform: rotate(270deg) scaleX(-1);
+}
+img.x-flipped-rotated-0 {
+	-moz-transform: scaleY(-1);
+	-webkit-transform: scaleY(-1);
+}
+img.x-flipped-rotated-90 {
+	-moz-transform: rotate(90deg) scaleY(-1);
+	-webkit-transform: rotate(90deg) scaleY(-1);
+}
+img.x-flipped-rotated-180 {
+	-moz-transform: rotate(180deg) scaleY(-1);
+	-webkit-transform: rotate(180deg) scaleY(-1);
+}
+img.x-flipped-rotated-270 {
+	-moz-transform: rotate(270deg) scaleY(-1);
+	-webkit-transform: rotate(270deg) scaleY(-1);
+}
+img.x-flipped-mirrored-rotated-0 {
+	-moz-transform: scale(-1,-1);
+	-webkit-transform: scale(-1,-1);
+}
+img.x-flipped-mirrored-rotated-90 {
+	-moz-transform: rotate(90deg) scale(-1,-1);
+	-webkit-transform: rotate(90deg) scale(-1,-1);
+}
+img.x-flipped-mirrored-rotated-180 {
+	-moz-transform: rotate(180deg) scale(-1,-1);
+	-webkit-transform: rotate(180deg) scale(-1,-1);
+}
+img.x-flipped-mirrored-rotated-270 {
+	-moz-transform: rotate(270deg) scale(-1,-1);
+	-webkit-transform: rotate(270deg) scale(-1,-1);
+}
+.btnface {
+	line-height:30px;
+	width:46px;
+}
+ 
+
+/* averages */
+
+#fN {
+	position: relative;
+	top: 5px;
+}
