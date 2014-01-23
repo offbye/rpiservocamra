@@ -1,10 +1,12 @@
 I want to see my daughter in home from the web camra connected in my Raspberry PI.
-I use Motion to implement a mjpeg streaming£¬and use dynamic DNS service on my wireless AP provide by www.oray.com .
+I use Motion to implement a mjpeg streamingï¿½ï¿½and use dynamic DNS service on my wireless AP provide by www.oray.com .
 Then I use a servo to control the usb camra turn. I use ServoBlaster to drive the servo. and I write a php page to allow me send servo command from web page.
 To use the program you need to have a php web server, such as Apache+ php or nginx+php.
 
 1 Install usb camra and motion on Raspberry PI
+
 $ lsusb
+
 $ sudo apt-get install  motion
 $ motion&
 
